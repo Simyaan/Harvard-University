@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: #333;
+            overflow: hidden;
+        }
+        ul li {
+            float: left;
+        }
+        ul li a {
+            color: #fff;
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: "Gill Sans","Gill Sans MT", Calibri, "Trebuchet MS",
+             sans-serif;
+            font-size: 20px
+        }
+        
+    </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Form.html">Register</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="Campus.html">Campus</a></li>
+
+             </ul>
+        </nav>
+        <center><img src="harvard.png" height="500" width="1000"/></center>
+        <form action="register.py" method="post">
+            <center><h1>Application Form</h1></center>
+            <center>
+                Name : <input type="text" name="name"/><br/>
+                Age : <input type="number" name="age"/><br/>
+                City : <input type="text" name="city"/><br/>
+                Contact: <input type="number" name="contact"/><br/>
+                <input type="submit" value="register"/>
+            </center>
+        </form>
+    </body>
+</html>
